@@ -1,0 +1,227 @@
+.container-1{
+    background-image: url("/C:/Users/User/Desktop/web dev/image/wall.svg");
+    border:1px #ccc solid;
+    padding:10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 1px 1px rgb(160, 155, 155);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-2, .container-3, .container-4{
+    padding:10px;
+    margin-bottom: 25px;
+    display:flex;
+    width:80%;
+    position: relative;
+    left:80px;
+    box-shadow: 0px 0px 1px 1px rgb(160, 155, 155);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-5{
+    border:none;
+    padding:10px;
+    width: 40%;
+    position: relative;
+    left:300px;
+    top:50px;
+    box-shadow: 0px 0px 1px 1px rgb(160, 155, 155);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-6{
+    background-color:rgb(2, 22, 2);
+    border:1px #ccc solid;
+    padding:10px;
+    margin-bottom:0px;
+}
+
+/* styling sub containers */
+.containaa{
+    display: flex;
+}
+.containbb{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+}
+.containcc{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+}
+.containdd{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+}
+.containee{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+}
+.containff{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+}
+footer{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    position: relative;
+    top: 80px;
+    font-family: sans-serif;
+}
+
+
+/* spacing containers */
+.container-1 .containaa #box1a{
+    flex:4;
+}
+.container-1 .containaa #box1b{
+    flex:1;
+}
+
+
+/* styling container 6 */
+.container-6 footer #box7c{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 40px;
+    position: relative;
+    left:400px;
+    bottom: 125px;
+}
+.container-6 footer #box7e{
+    position: relative;
+    left:650px;
+    bottom: 70px;
+    color: white;
+    margin: 0px;
+}
+.container-6 footer #box7b{
+    color:white
+}
+.container-6 footer #box7d{
+    position: relative;
+    left:700px;
+    bottom: 220px;
+}
+
+/* styling buttons */
+.container-1 .containaa #box1b button{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: white;
+}
+.container-5 .containff #box6b button{
+    height: 120%;
+    width: 100%;
+    border-radius: 20px;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(214, 33, 184);
+    color:white;
+    position: relative;
+    left:120px;
+    border-width: 0px;
+}
+
+/* styling fonts */
+.container-1 .containbb #box2a h1, .container-2 .containcc #box3a p,.container-3 .containdd #box4a p, .container-4 .containee #box5a p,.container-5 .containff #box6a p{
+    font-family:sans-serif;
+    font-weight:600;
+    color:rgb(4, 46, 4);
+}
+.container-1 .containbb #box2b p, .container-2 .containcc #box3b p,.container-3 .containdd #box4b p,.container-4 .containee #box5b p{
+    font-family:sans-serif;
+    font-weight: 400;
+    color:rgb(4, 46, 4);
+    text-align:justify;
+}
+
+
+.container-3 .containdd #box4a p,.container-3 .containdd #box4b p{
+    position:relative;
+    left:400px;
+}
+
+/* manipulating container 5 texts and container*/
+.container-5 .containff #box6a p{
+    position: relative;
+    left: 85px;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container-5 .containff #box6a{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.container-1 .containbb #box2c button{
+    background-color: rgb(214, 33, 184);
+    box-shadow: 0;
+    height: 100%;
+    width: 35%;
+    border-radius: 20px;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color:white;   
+}
+.container-1 .containbb #box2d{
+    height:100px;
+}
+.container-2 .containcc #box3c{
+    height:50px;
+}
+.container-3 .containdd #box4c{
+    height:50px;
+}
+.container-4 .containee #box5c{
+    height:50px;
+}
+
+
+
+.container-1 .containbb #box2d img{
+    width:500px;
+    height:300px;
+    position:relative;
+    left:400px;
+    bottom:250px
+}
+.container-2 .containcc #box3c img{
+    width:300px;
+    height:200px;
+    position:relative;
+    left:400px;
+    bottom:180px
+}
+.container-3 .containdd #box4c img{
+    width:300px;
+    height:200px;
+    position:relative;
+    bottom:150px
+}
+.container-4 .containee #box5c img{
+    width:300px;
+    height:200px;
+    position:relative;
+    left:400px;
+    bottom:160px
+}

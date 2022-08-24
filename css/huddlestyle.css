@@ -1,0 +1,168 @@
+.container-1{
+    background-image: url("/C:/Users/User/Desktop/web dev/image/wall.svg");
+    display: grid;
+    grid-template-rows: 150%;
+    padding-top: 10px;
+    padding-right: 0px;
+    grid-gap: 5em;
+}
+
+.container-1 #box1{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-gap:0em;
+}
+.container-1 #box1 button{
+    background-color: white;
+    box-shadow: 0;
+    height: 100%;
+    width: 150%;
+    border-radius: 20px;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    left:450px;
+}
+
+.container-1 #box2{
+    grid-column: 1/2;
+    display: grid;
+    grid-auto-columns:350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-1 #chat{
+    display: grid;
+    width:350px;
+    height:200px;
+    grid-column: 3;   
+}
+
+.container-1 button{
+    background-color: rgb(214, 33, 184);
+    box-shadow: 0;
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    right:0px;
+    bottom:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.container-2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:90%;
+}
+.container-3 {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-4 {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-5{
+    display:grid;
+    grid-column: 1/3;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(255, 255, 255);
+    width:40%;
+    height: 150px;
+    position: relative;
+    left:350px;
+    top:50px;
+    box-shadow: 0px 0px 5px 5px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.container-6 {
+    background-color: rgb(4, 46, 4) ;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    height: 350px;
+}
+
+.container-2 h2{
+    color:rgb(4, 46, 4);
+    font-weight: 800;
+}
+.container-1 h1{
+    color:rgb(4, 46, 4);
+}
+.container-3 h3{
+    color:rgb(4, 46, 4);
+    font-weight:800;
+}
+.container-4 h4{
+    color:rgb(4, 46, 4);
+    font-weight: 800;
+}
+.container-5 h5{
+    color:rgb(4, 46, 4);
+    font-weight: 800;
+    position: relative;
+    left: 100px;
+}
+
+.container-2 #together{
+    display:grid;
+    grid-column:2;
+    position:relative;
+    left:250px;
+}
+
+.container-2 #convo{
+    display:grid;
+    grid-column:2;
+    position:relative;
+    right:250px;
+}
+.container-2 #users{
+    display:grid;
+    grid-column:2;
+    position:relative;
+    right:250px;
+}
+.container-5 button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(214, 33, 184);
+    font-weight: 800;
+    height:30px;
+    width: 50%;
+    border-radius: 20px;
+    position: relative;
+    left:100px;
+    border-width: 0px;
+}
+.container-6 #contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1px;
+    position: relative;
+    top:100px;
+    color:white;
+}
+.container-6 #about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    position: relative;
+    top:100px;
+    color:white;
+}
+.container-6 #social-icons{
+    display: grid;    
+    position: relative;
+    top:100px;
+    color:white;
+}
